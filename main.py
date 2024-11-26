@@ -13,3 +13,11 @@ with column_right:
 
     st.subheader("Ardit Sulce")
     st.info(about_text)
+
+intro_html = """
+<div style="text-align: center">Below you can find some of the apps 
+I've built in Python. Feel free to contact me!</div>
+"""
+
+st.text("")
+st.html(intro_html)
