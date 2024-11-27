@@ -1,6 +1,7 @@
 # Imports
 import pandas
 import streamlit as st
+import modules.components as components
 
 
 # Functions
@@ -14,7 +15,8 @@ def display_project(project):
 
 
 # Configurations
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Homepage")
+components.show_page_navigation()
 
 # About Section
 about_column_left, about_column_right = st.columns(2)
