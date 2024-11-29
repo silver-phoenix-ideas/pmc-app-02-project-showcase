@@ -4,7 +4,7 @@ import modules.components as components
 
 # Configurations
 st.set_page_config(layout="wide", page_title="Contact Me")
-components.show_page_navigation()
+components.page_navigation()
 
 # Contact Section
 st.title("Contact Me")
