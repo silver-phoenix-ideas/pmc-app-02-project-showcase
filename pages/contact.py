@@ -1,9 +1,10 @@
 # Imports
 import streamlit as st
+import modules.config as config
 import modules.components as components
 
 # Configurations
-st.set_page_config(layout="wide", page_title="Contact Me")
+st.set_page_config(layout="wide", page_title="Contact Me | " + config.APP_TITLE)
 components.page_navigation()
 
 # Contact Section

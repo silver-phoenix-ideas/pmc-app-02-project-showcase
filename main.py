@@ -1,10 +1,11 @@
 # Imports
 import pandas
 import streamlit as st
+import modules.config as config
 import modules.components as components
 
 # Configurations
-st.set_page_config(layout="wide", page_title="Homepage")
+st.set_page_config(layout="wide", page_title="Homepage | " + config.APP_TITLE)
 components.page_navigation()
 
 # About Section
